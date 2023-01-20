@@ -1,0 +1,187 @@
+section {
+  display: block;
+}
+.whyChoose {
+  padding: 100px 0 100px 0;
+  background-color: #f7fcff;
+}
+
+.commonHeading {
+  padding: 0;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+  color: #05688d;
+}
+.upset {
+  position: relative;
+  z-index: 5;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.sBlock {
+  background: #fff;
+  background-size: 200%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px 20px;
+  margin: 0;
+  position: relative;
+  border: 1px solid #d4f0ff;
+  border-radius: 8px;
+  box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%),
+    0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+}
+
+.sCardIcon {
+  width: 80px;
+  margin: 0 auto 30px;
+}
+
+.upHor:hover {
+  transform: translateY(-7.5px);
+}
+.upHor {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  -o-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.sBlock .h4 {
+  margin: 0 0 10px 0;
+}
+
+.h4 {
+  font-size: 21px;
+  line-height: 32px;
+  color: #05688d;
+  font-weight: 600;
+}
+
+.p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6a6a6a;
+}
+
+.bg {
+  background-color: #f7fcff !important ;
+}
+
+.pb40 {
+  padding-bottom: 40px;
+}
+
+.pt40 {
+  padding-top: 40px;
+}
+
+.span {
+  font-size: 35px;
+  font-weight: bold;
+  color: #05688d;
+}
+
+.emailSubs .h3 {
+  margin-bottom: 10px;
+}
+
+.h3 {
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 46px;
+  font-size: 35px;
+  color: #05688d;
+}
+
+.textCenter {
+  align-self: center;
+  align-items: center;
+  position: relative;
+}
+
+.btnOutline {
+  color: #05688d;
+  border: 2px solid #05688d;
+  border-radius: 100px;
+  font-size: 16px;
+  background: #fff;
+  padding: 15px 32px;
+  line-height: 52px;
+  box-shadow: 0 10px 15px 0 rgb(3 35 68 / 10%);
+}
+.btnOutline:hover {
+  text-decoration: none;
+  background: #05668d;
+  color: #fff;
+  border: 2px solid #05668d;
+}
+.btnOutline {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+.emailSubsForm {
+  position: relative;
+}
+
+.faIcon {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+/*----------------- @media query --------------------*/
+
+@media only screen and (max-width: 767px) {
+  .whyChoose {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .commonHeading .h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .sBlock {
+    padding: 50px 15px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .emailSubs .h3 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .span {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}

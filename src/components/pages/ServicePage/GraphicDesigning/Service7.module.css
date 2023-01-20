@@ -1,0 +1,203 @@
+.service {
+  padding: 100px 0 100px 0;
+  background: #f5f5f5;
+}
+.heading {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+.heading .h2 {
+  margin-bottom: 15px;
+}
+.h2 {
+  color: #05688d;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+}
+.p {
+  margin-bottom: 30px;
+  color: #6a6a6a;
+  padding: 0;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.upset {
+  position: relative;
+  z-index: 5;
+}
+.mt30 {
+  margin-top: 30px;
+}
+
+.cardBlock {
+  background: #fff;
+  background-size: 200%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  border: 1px solid #d4f0ff;
+  border-radius: 8px;
+  box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%),
+    0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+}
+.wideBlock {
+  display: inline-flex;
+  text-align: left;
+  padding: 30px 20px;
+}
+
+.cardLogo {
+  width: 150px;
+}
+
+.textBlock {
+  margin: 0 0 0 20px;
+  width: calc(100% - 150px);
+}
+
+.h4 {
+  color: #05668d;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+}
+.textBlock .p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+@media only screen and (max-width: 991px) {
+  .heading .h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wideBlock {
+    display: block;
+    text-align: left;
+    padding: 30px 20px;
+  }
+  .cardLogo {
+    width: 150px;
+    margin: 0 auto 20px;
+  }
+  .textBlock {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* ------------------ btn ------------ */
+
+.ctaBtn {
+  margin-top: 70px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.ctaTitle {
+  display: inline-flex;
+}
+
+.vCenter {
+  align-self: center;
+  align-items: center;
+}
+
+.ctaBtn .p {
+  font-size: 30px;
+  color: #05688d;
+  margin: 0 30px 0 0;
+}
+.ctaBtn .p .bold {
+  font-weight: 700;
+}
+
+.bgBtn {
+  background: #05668d;
+  background: -moz-linear-gradient(left, #05668d 0, #028090 100%);
+  background: -webkit-linear-gradient(left, #05668d 0, #028090 100%);
+  background: linear-gradient(to right, #05668d 0, #028090 100%);
+  -webkit-box-shadow: 0 10px 15px 0 rgb(4 108 141 / 20%);
+  box-shadow: 0 10px 15px 0 rgb(4 108 141 / 20%);
+}
+
+.btnMain {
+  color: #fff !important;
+  font-size: 16px;
+  line-height: 56px;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 30px;
+  border: none;
+  border-radius: 100px;
+  display: inline-block;
+  position: relative;
+  -webkit-box-shadow: 0 10px 15px 0 rgb(2 195 154 / 15%);
+  box-shadow: 0 10px 15px 0 rgb(2 195 154 / 15%);
+}
+.lnk {
+  position: relative;
+  overflow: hidden;
+}
+.btnMain:hover span.circle {
+  top: -10%;
+  right: -80px;
+}
+.circle {
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.faIcon {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.circle {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  position: absolute;
+  top: -10%;
+  right: -130px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .ctaTitle {
+    display: block;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .ctaBtn .p {
+    margin: 0 0 30px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .btnMain {
+    width: max-content;
+    margin: 0 auto;
+    display: block;
+  }
+}

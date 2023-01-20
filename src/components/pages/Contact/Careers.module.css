@@ -1,0 +1,80 @@
+.breadcrumpArea {
+  padding: 150px 0 90px 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.breadcrumpArea::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.85;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  background: linear-gradient(135deg, #ffdee9 0, #c8fff4 100%);
+}
+.banner6 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.textBlock {
+  position: relative;
+  z-index: 55;
+}
+.vCenter {
+  align-items: center;
+  align-self: center;
+}
+
+.breadcrumpArea ul li {
+  display: inline-block;
+}
+
+.breadcrumpArea .breadMenu li a {
+  font-family: "Poppins", sans-serif;
+  color: #6a6a6a;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.breadcrumpArea .breadMenu li + li::before {
+  font-size: 5px;
+  font-family: "Font Awesome 5 Free";
+  content: "\f111";
+  font-weight: 700;
+  margin: 0 10px 0 0;
+  position: relative;
+  top: -3px;
+  color: #6a6a6a;
+}
+
+.breadTitle .h2 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 47px;
+  margin: 15px 0 0 0;
+}
+.h2 {
+  color: #05688d;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ------ media query ----------- */
+
+@media only screen and (max-width: 991px) {
+  .breadcrumpArea {
+    padding: 120px 0 60px 0;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .breadTitle .h2, .h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}

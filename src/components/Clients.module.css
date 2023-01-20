@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+section {
+  display: block;
+}
+
+.clientSection {
+  padding: 65px 0;
+  background: #f5f5f5;
+}
+
+.clientSection .h2 {
+  text-align: center;
+}
+.commonHeading {
+  padding: 0;
+  position: relative;
+  z-index: 10;
+}
+.h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  line-height: 52px;
+  color: #05688d;
+  font-weight: 600;
+}
+
+/* ------- Blocks ------ */
+
+.clientLogo {
+  margin-top: 30px;
+}
+
+.clearfix {
+  list-style: none;
+}
+
+.appg .brandLogo {
+  max-width: 180px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.hoshd:hover{
+  box-shadow: 0 15px 39px -11px #46638e45;
+  transform: translate(0, -5px);
+}
+.hoshd{
+  -webkit-transition: 1.2s cubic-bezier(.17, .85, .438, .99);
+  transition: 1.2s cubic-bezier(.17, .85, .438, .99);
+}
+
+.img {
+  height: 150px;
+  object-fit: contain;
+}
+
+
+
+
+/* ----- media Query ----- */
+
+@media only screen and (max-width : 991px) {
+  .commonHeading .h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width : 520px) {
+  .h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+    .appg{
+        padding: 0 15px;
+    }
+}
+
+
+/* ----------- location ------------------- */
+
+section {
+  display: block;
+}
+
+.locationSection {
+  padding: 65px 0;
+}
+.commonHeading .h2 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.commonHeading {
+  position: relative;
+  z-index: 10;
+}
+.h2 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+  color: #05688d;
+}
+
+/* ------ card ----- */
+
+.shapeLoc {
+  margin-top: 20px;
+}
+.landscp {
+  text-align: center;
+  background: #fbfbfb;
+}
+.infoText {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 20px 30px -20px rgb(0 21 167 / 20%);
+  border-radius: 8px 8px 8px 8px;
+  border-bottom: 5px solid #b0bdff;
+}
+.hoshd:hover {
+  box-shadow: 0 15px 39px -11px #46638e45;
+  transform: translate(0, -5px);
+}
+.hoshd {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+.h5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #05688d;
+  font-weight: 600;
+}
+
+/* -------- cta Section -------- */
+
+.ctaSection {
+  padding-top: 40px;
+  background: #f5f5f5;
+  padding-bottom: 40px;
+}
+
+.vCenter {
+  align-self: center;
+  align-items: center;
+}
+
+.emailSubs .h3 {
+  margin-bottom: 10px;
+}
+
+.h3 {
+  font-size: 34px;
+  line-height: 46px;
+  color: #05688d;
+  font-weight: 600;
+}
+
+.p {
+  font-size: 17px;
+  line-height: 28px;
+  color: #6a6a6a;
+}
+span.circle {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  position: absolute;
+  top: -10%;
+  right: -130px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* -----button----- */
+
+.vCenter {
+  align-self: center;
+  align-items: center;
+}
+
+.emailSubsForm {
+  position: relative;
+}
+
+.emailSubsForm .formCta {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.emailSubsForm input {
+  width: 100%;
+  height: 65px;
+  padding: 0 175px 0 30px;
+  margin: 0;
+  color: #172b43;
+  font-size: 16px;
+  outline: 0;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 100px;
+  box-shadow: 1px 4px 15px rgb(5 102 141 / 30%);
+}
+.emailSubsForm .btnMain {
+  width: max-content;
+  position: absolute;
+  right: 5px;
+  border-radius: 28px 100px 100px 28px;
+  padding: 0 30px;
+  line-height: 55px;
+  box-shadow: none;
+}
+
+.bgBtn6 {
+  background: #05668d;
+  background: -moz-linear-gradient(
+    -45deg,
+    #05668d 0,
+    #028090 54%,
+    #00a896 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #05668d 0,
+    #028090 54%,
+    #00a896 100%
+  );
+  background: linear-gradient(135deg, #05668d 0, #028090 54%, #00a896 100%);
+}
+
+.circle {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.btnMain {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  outline: 0;
+  color: #fff;
+  background-color: #05688d;
+  border: none;
+  display: inline-block;
+  position: relative;
+  -webkit-box-shadow: 0 10px 15px 0 rgb(2 195 154 / 15%);
+   box-shadow: 0 10px 15px 0 rgb(2 195 154 / 15%);
+}
+.btnMain:hover{
+  color: #fff;
+}
+.lnk:hover span.circle{
+  top: -10%;
+  right: -80px;
+}
+
+.lnk {
+  position: relative;
+  overflow: hidden;
+  right: 5px;
+}
+.faIcon {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+/* ------ Mediaquery -------- */
+
+@media only screen and (max-width: 991px) {
+  .commonHeading {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cardLogo {
+    margin-bottom: 60px;
+  }
+}
+
+/* ------ cta media query ----- */
+
+@media only screen and (max-width: 991px) {
+  .emailSubs {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .h3 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .emailSubsForm .p {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .emailSubsForm input {
+    width: 100%;
+    height: 65px;
+    padding: 0 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .emailSubsForm .btnMain {
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    font-size: 0;
+    line-height: 55px;
+    text-align: center;
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .btnMain {
+    margin: 0 auto;
+    display: block;
+  }
+}

@@ -1,0 +1,269 @@
+.service {
+  padding: 120px 0 120px 0;
+}
+
+section {
+  display: block;
+}
+
+.fadeUp {
+  visibility: visible;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+}
+.hoGdnt .sBlock:hover:before {
+  opacity: 1;
+}
+.ovrBg2 .ovrBase:before {
+  content: "";
+  background: -webkit-linear-gradient(
+    135deg,
+    #05668d 0,
+    #028090 54%,
+    #00a896 100%
+  );
+  background: linear-gradient(135deg, #05668d 0, #028090 54%, #00a896 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.hoGdnt .sBlock {
+  overflow: hidden;
+}
+.hoGdnt .ovrBase:before {
+  -webkit-transition: 0.8s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 0.8s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+.upHor:hover {
+  transform: translateY(-7.5px);
+}
+.upHor {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  -o-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.commonHeading .h2 {
+  margin-bottom: 60px;
+}
+
+.h2 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #05688d;
+  font-weight: 600;
+}
+
+.upset {
+  position: relative;
+  z-index: 5;
+}
+
+.sBlock {
+  background: #fff ;
+  text-align: center;
+  background-size: 200%;
+  background-position: top rigth;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px 20px;
+  margin: 0 0 30px 0;
+  position: relative;
+  border: 1px solid #d4f0ff;
+  border-radius: 8px;
+  box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%),
+    0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+}
+
+.nnCardSet {
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.hoGdnt .sBlock:hover .h4{
+  color: #fff;
+}
+.hoGdnt .sBlock:hover .p{
+  color: #fff;
+}
+.hoGdnt .sBlock:hover a{
+  color: #fff;
+}
+
+.sBlock .h4 {
+  margin: 30px 0 10px 0;
+}
+
+.h4 {
+  color: #05688d;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.p1 {
+  font-size: 17px;
+  line-height: 28px;
+  color: #6a6a6a !important;
+}
+
+.sBlock a {
+  display: inline-block;
+  margin: 15px 0 0 0;
+  color: #05688d;
+}
+
+.p2 {
+  margin-top: 50px;
+}
+
+.ctaBtn .p {
+  font-size: 31px;
+  color: #05688e;
+  margin: 0 30px 0 0;
+}
+
+.p {
+  color: #6a6a6a;
+  font-size: 17px;
+  line-height: 28px;
+  padding: 0;
+  margin: 0;
+}
+
+.ctaBtn {
+  margin: 0 auto;
+  margin-top: 150px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.ctaBtn p .span {
+  font-weight: 700;
+}
+
+.btnMain:hover{
+  color: #fff !important;
+}
+.lnk:hover span.circle{
+  top: -10%;
+  right: -80px;
+}
+
+span.circle {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  position: absolute;
+  top: -10%;
+  right: -130px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.circle {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.sCardIcon {
+  width: 80px;
+  margin: 0 auto 30px;
+}
+
+.vCenter {
+  align-self: center;
+  align-items: center;
+}
+
+.btnMain {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 32px;
+  line-height: 56px;
+  text-align: center;
+  outline: 0;
+  background-color: #05668d;
+  border: none;
+  border-radius: 100px;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0 10px 15px 0 rgb(2 195 154 / 15%);
+  color: #fff !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.lnk {
+  position: relative;
+  overflow: hidden;
+}
+.lnk:hover {
+  color: #fff !important;
+}
+
+.bgBtn6 {
+  background: #05688d;
+  background: -moz-linear-gradient(
+    -45deg,
+    #05668d 0,
+    #028090 54%,
+    #00a896 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #05668d 0,
+    #028090 54%,
+    #00a896 100%
+  );
+  background: linear-gradient(135deg, #05668d 0, #028090 54%, #00a896 100%);
+}
+
+.faIcon {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+/* @media query */
+
+@media only screen and (max-width: 520px) {
+  .h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .ctaBtn p {
+    margin: 0 0 30px 0;
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .btnMain {
+    width: max-content;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .vCenter .p {
+    margin: 0 0 30px 0;
+    font-size: 25px;
+    line-height: 35px;
+  }
+}

@@ -1,0 +1,222 @@
+/* ////////////////////// BreadCrump ////////////////////////// */
+
+.breadcrumpArea {
+  padding: 150px 0 90px 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.banner6 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.breadcrumpArea:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.85;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  background: -webkit-linear-gradient(-45deg, #ffdee9 0, #c8fff4 100%);
+  background: linear-gradient(135deg, #ffdee9 0, #c8fff4 100%);
+}
+
+.textBlock {
+  position: relative;
+  z-index: 55;
+}
+
+.vCenter {
+  align-self: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.breadcrumpArea ul li {
+  display: inline-block;
+}
+.breadcrumpArea .breadMenu li a {
+  font-family: "Poppins", sans-serif;
+  color: #6a6a8e;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 10px;
+  display: inline-block;
+
+}
+
+.breadcrumpArea .breadMenu li + li::before {
+  font-size: 5px;
+  font-family: "Font Awesome 5 Free";
+  content: "\f111";
+  font-weight: 700;
+  margin: 0 10px 0 0;
+  position: relative;
+  top: -3px;
+  color: #6a6a6a;
+}
+
+.breadTitle .h2 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 47px;
+  margin: 15px 0 0 0;
+}
+.h2 {
+  font-family: "Poppins", sans-serif;
+  color: #05688d;
+}
+
+.breadcrumbArea:after {
+  content: "";
+  z-index: 0;
+
+  background-size: auto;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  background-position: center right;
+  background-size: contain;
+}
+
+/* /////////////////////////// Service Section /////////////////////////////// */
+
+.serviceSection {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.mt {
+  margin-top: 30px;
+}
+.upset {
+  position: relative;
+  z-index: 5;
+}
+
+
+.hoshd:hover {
+  box-shadow: 0 15px 39px -11px #46638e45;
+  transform: translate(0, -5px);
+}
+.hoshd{
+  -webkit-transition: 1.2s cubic-bezier(.17, .85, .438, .99);
+    transition: 1.2s cubic-bezier(.17, .85, .438, .99);
+}
+
+.serviceCardApp {
+  display: block;
+  background: #fff;
+  box-shadow: 0 11px 20px rgb(123 149 162 / 15%);
+  font-weight: 400;
+  font-size: 14px;
+  padding: 30px;
+  border-radius: 40px 8px 40px 8px;
+}
+
+.h4 {
+  font-size: 22px;
+  line-height: 32px;
+}
+.h4 {
+  font-family: "Poppins", sans-serif;
+  color: #05688d;
+  font-weight: 600;
+}
+
+.serviceList {
+  margin-top: 10px;
+}
+ul {
+  list-style: none;
+}
+
+.serviceList li {
+  text-transform: uppercase;
+  list-style: none;
+  padding: 0 8px;
+  /* border-right: 1px solid #d4d4d4; */
+  display: inline-block;
+}
+.serviceList li a {
+  color: #6a6a8e;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 5px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.tecIcon {
+  margin-top: 30px;
+}
+.serviceIcon {
+  display: flex;
+}
+
+.tecIcon ul li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+.tecIcon ul li .imgIcon {
+  display: inline-flex;
+  border-radius: 100%;
+  background: #f5f7ff;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+}
+
+.tecIcon ul li .img {
+  width: 40px;
+  margin: 0 auto;
+}
+
+.p {
+  font-family: "Poppins", sans-serif;
+  color: #6a6a6a;
+  font-size: 17px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.linkPrbs {
+  margin-top: 20px;
+  display: block;
+  color: #6a6a8e;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.faIcon {
+  margin-left: 5px;
+}
+
+
+
+@media only screen and (max-width:991px){
+  .breadcrumpArea{
+    padding: 120px 0 60px 0;
+  }
+}
+@media only screen and (max-width:520px){
+  .breadTitle .h2{
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .h4{
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

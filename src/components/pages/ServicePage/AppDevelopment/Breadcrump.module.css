@@ -1,0 +1,103 @@
+.breadcrumpArea {
+  padding: 150px 0 100px 0;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.breadcrumpArea::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  opacity: 0.85;
+  background: -webkit-linear-gradient(-45deg, #ffdee9 0, #c8fff4 100%);
+  background: linear-gradient(135deg, #ffdee9 0, #c8fff4 100%);
+}
+.breadTitle {
+  position: relative;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 57px;
+  color: #05688d;
+}
+.p {
+  margin-top: 20px;
+  color: #6a6a6a;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.btnMain{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins",sans-serif;
+    padding: 0 32px;
+    line-height: 56px;
+    color: #fff !important;
+    border: none;
+    border-radius: 100px;
+    display: inline-block;
+    position: relative;
+}
+.bgBtn {
+    background: #05668D;
+    background: -moz-linear-gradient(left, #05668D 0, #028090 100%);
+    background: -webkit-linear-gradient(left, #05668D 0, #028090 100%);
+    background: linear-gradient(to right, #05668D 0, #028090 100%);
+    -webkit-box-shadow: 0 10px 15px 0 rgb(4 108 141 / 20%);
+    box-shadow: 0 10px 15px 0 rgb(4 108 141 / 20%);
+}
+.faIcon{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.circle {
+    background: rgba(255, 255, 255, .2);
+    display: block;
+    position: absolute;
+    top: -10%;
+    right: -130px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-transition: 1.2s cubic-bezier(.17, .85, .438, .99);
+    -o-transition: 1.2s cubic-bezier(.17, .85, .438, .99);
+    transition: 1.2s cubic-bezier(.17, .85, .438, .99);
+}
+.lnk{
+  position: relative;
+  overflow: hidden;
+}
+
+.lnk:hover span.circle{
+  top: -10%;
+  right: -80px;
+}
+
+/* ------------ media query ----------- */
+
+@media only screen and (max-width:520px){
+  .breadTitle .h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+@media only screen and (max-width:991px){
+  .btnMain{
+    width: max-content;
+    margin: 0 auto;
+    display: block;
+  }
+}

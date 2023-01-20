@@ -1,0 +1,80 @@
+.footerBrands {
+  background: #05678d;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.img {
+  width: 150px;
+  object-fit: contain;
+}
+
+.pt30 {
+  padding-top: 30px;
+}
+
+footer .row {
+  position: relative;
+  z-index: 1;
+}
+.text {
+  text-align: center;
+  color: #fff;
+}
+.fs {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.a {
+  font-family: "Poppins", sans-serif;
+  color: #fff !important;
+}
+
+/* ---------- social media icons --------- */
+
+.footerRow {
+  background: #fff;
+  padding: 40px 0;
+}
+
+.copyright {
+  text-align: center;
+  color: #6a6a6a;
+}
+
+.ftrSocialMediaIcons {
+  margin: 0 0 30px 0;
+}
+
+.ftrSocialMediaIcons a {
+  color: #6a6a6a;
+  font-size: 26px;
+  border-radius: 4px;
+  margin: 0 20px;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 34px;
+}
+
+.p {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+/* -------media query ------ */
+
+@media only screen and (max-width: 991px) {
+  .footerBrands {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .ftrBrand {
+    text-align: center;
+  }
+}
+

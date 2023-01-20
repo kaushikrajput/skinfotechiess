@@ -1,0 +1,240 @@
+.testinomialSection {
+  padding: 100px 0 100px 0;
+}
+
+.bgNone {
+  background: 0 0;
+}
+
+.text1 {
+  text-align: left !important;
+}
+.commonHeading {
+  position: relative;
+  padding: 0;
+  z-index: 10;
+}
+.commonHeading > .span {
+  color: #05688d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  display: block;
+}
+.commonHeading .h2 {
+  margin-bottom: 60px;
+}
+.h2 {
+  font-weight: 600;
+  color: #05688d;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+/* ---- second card ----- */
+
+.pl {
+  padding-left: 50px !important;
+}
+
+.shape1 {
+  bottom: -20px;
+  left: 0;
+  z-index: -2;
+}
+.shape {
+  position: absolute;
+}
+.p {
+  font-size: 17px;
+  line-height: 28px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.upset {
+  position: relative;
+  z-index: 5;
+}
+
+.vCenter {
+  align-self: center;
+  align-items: center;
+}
+.userInfo {
+  margin: 0 0 0 20px;
+  text-align: left;
+}
+
+/* .tcd {
+  color: #6a6a6a;
+  display: block;
+  background: #fff;
+  box-shadow: 0 11px 20px rgb(123 149 162 / 15%);
+  font-weight: 400;
+  font-size: 14px;
+  padding: 60px 30px;
+  border-radius: 40px 8px 8px 8px;
+} */
+
+.h5 {
+  margin: 0;
+  padding: 0;
+  color: #05688d;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.userInfo .p {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 28px;
+}
+.fasIcon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 60px;
+  color: #00f2a6;
+}
+
+/* ------- cta Section ------ */
+
+section {
+  display: block;
+}
+.ctaSection {
+  background: #05688e;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.mainHeading {
+  padding: 0;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+.h {
+  margin-bottom: 10px;
+}
+.ctaSection .h {
+  color: #fff;
+}
+.h {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+}
+.span1 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.btnMain {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 56px;
+  padding: 0 32px;
+  text-align: center;
+  color: #046d82;
+  outline: 0;
+  border: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 100px;
+  background-color: #05688d;
+  background: #fff;
+  box-shadow: 1px 2px 3px #3c3d3d;
+}
+
+.lnk {
+  position: relative;
+  overflow: hidden;
+}
+.faIcon {
+  margin-left: 5px;
+  font-size: 12px;
+}
+/* .fixHeight{
+  height: 316px;
+} */
+/* ---------- media query -------- */
+
+@media only screen and (max-width: 991px) {
+  .mainHeading .h {
+    text-align: center;
+  }
+  .testinomialSection {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .h {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .span1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .h5 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+  .fixHeight{
+    padding: 40px 30px !important;
+  }
+  .btnMain {
+    width: max-content;
+    margin: 0 auto;
+    display: block;
+  }
+  .commonHeading .span,
+  .h2 {
+    text-align: center;
+  }
+  .userInfo .h5 {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .userInfo .p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  .pl {
+    border-radius: 40px 8px 8px 8px;
+    padding: 40px 30px;
+    margin-top: 30px;
+    padding-left: 0 !important;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .fasIcon {
+    opacity: 0.2;
+    top: 0;
+  }
+}

@@ -1,0 +1,154 @@
+/* ------------ service ---------- */
+
+.serviceArea {
+  padding: 100px 0 100px 0;
+  overflow: hidden;
+}
+.textBlock2 {
+  /* padding-right: 25px; */
+  text-align: left;
+}
+.h3 {
+  margin-bottom: 20px;
+  font-size: 34px;
+  line-height: 46px;
+  color: #05688d;
+  font-weight: 600;
+}
+.p {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 28px;
+  color: #6a6a6a;
+}
+
+.btnMain {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 56px;
+  padding: 0 32px;
+  color: #fff !important;
+  border-radius: 100px;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 15px 0 rgb(2 195 154 / 15%);
+}
+
+.bgBtn {
+  background: #05668d;
+  background: -moz-linear-gradient(left, #05668d 0, #028090 100%);
+  background: -webkit-linear-gradient(left, #05668d 0, #028090 100%);
+  background: linear-gradient(to right, #05668d 0, #028090 100%);
+  -webkit-box-shadow: 0 10px 15px 0 rgb(4 108 141 / 20%);
+  box-shadow: 0 10px 15px 0 rgb(4 108 141 / 20%);
+}
+.lnk {
+  position: relative;
+  overflow: hidden;
+}
+.btnMain:hover span.circle {
+  top: -10%;
+  right: -80px;
+}
+.circle {
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+.faIcon {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.circle {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  position: absolute;
+  top: -10%;
+  right: -130px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.h4 {
+  color: #05688d;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+}
+.keyPoints {
+  margin-top: 20px;
+  display: block;
+}
+.keyPoints li {
+  padding: 8px 0 8px 35px;
+  position: relative;
+  line-height: 28px;
+  font-size: 17px;
+  color: #6a6a6a;
+}
+.keyPoints li::before {
+  content: "\f00c";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  left: 0;
+  top: 9px;
+  background: #ffc627;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  color: #333;
+}
+
+/* ------ media query ------- */
+
+@media only screen and (max-width: 991px) {
+  .textBlock2 .h3,
+  .h5,
+  .p {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  
+  .btnMain {
+    width: max-content;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .serviceKeyPoints {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .serviceKeyPoints .h4 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: 767px) {
+  .serviceArea {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

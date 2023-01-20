@@ -1,0 +1,136 @@
+.portfolioArea {
+  padding: 120px 0 120px 0;
+}
+.commonHeading {
+  padding: 0;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+.h2 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+  color: #05688d;
+}
+
+/* ------- Items ------- */
+
+.mt40 {
+  margin-top: 40px;
+}
+.isotopItem {
+  position: relative;
+}
+
+.itemImage {
+  position: relative;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff00;
+  box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%),
+    0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+}
+
+
+/* .hScl:hover {
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transform: translate(0, -5px);
+} */
+
+.hScl:hover .hSclBase{
+  transform: scale(.9);
+}
+.hScl .hSclBase{
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transform: scale(1);
+}
+.hScl:hover .hSclBase .img{
+  transform: scale(1.15);
+}
+.hSclBase .img{
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+.shdo {
+  box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 / 6%),
+    0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
+  box-shadow: 0px 0px 5px -3px rgb(0 0 0);
+}
+.itemInfo {
+  background: #fff;
+  padding: 15px;
+  position: relative;
+  top: -39px;
+  width: 95%;
+  border-radius: 40px 8px 8px 8px;
+  margin: 0 auto;
+  text-align: center;
+}
+.itemImage .img{
+  width: 100%;
+}
+
+.itemInfo .h4 {
+  margin: 0;
+}
+.isotopItem .h4 {
+  font-weight: 600;
+}
+.h4 {
+  color: #05688d;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  padding: 0;
+  margin: 0;
+}
+.isotopItem .h4 .a {
+  color: #05688e;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.btnOutline:hover {
+  background: #05688d;
+  color: #fff;
+  border: 2px solid #05688d;
+}
+
+.btnOutline {
+  border: 2px solid #05688d;
+  color: #05688e;
+  display: inline-block;
+  padding: 0 32px;
+  font-size: 16px;
+  background: #fff;
+  box-shadow: 0 10px 15px 0 rgb(3 35 68 / 10%);
+  line-height: 52px;
+  border-radius: 100px;
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  -o-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.faIcon {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+/* ------ @mediaQuery ------- */
+
+@media only screen and (max-width: 991px) {
+  .commonHeading .h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}

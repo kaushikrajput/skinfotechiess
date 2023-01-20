@@ -1,0 +1,76 @@
+section {
+  display: block;
+}
+
+.locationSection {
+  padding: 65px 0;
+}
+.commonHeading .h2 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.commonHeading {
+  position: relative;
+  z-index: 10;
+}
+.h2 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+  color: #05688d;
+}
+
+/* ------ card ----- */
+
+.shapeLoc {
+  margin-top: 20px;
+}
+.landscp {
+  text-align: center;
+  background: #fbfbfb;
+}
+.infoText {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 20px 30px -20px rgb(0 21 167 / 20%);
+  border-radius: 8px 8px 8px 8px;
+  border-bottom: 5px solid #b0bdff;
+}
+.hoshd:hover {
+  box-shadow: 0 15px 39px -11px #46638e45;
+  transform: translate(0, -5px);
+}
+.hoshd {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+.h5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #05688d;
+  font-weight: 600;
+}
+
+
+
+/* ------ Mediaquery -------- */
+
+@media only screen and (max-width: 991px) {
+  .commonHeading {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cardLogo {
+    margin-bottom: 60px;
+  }
+}
+
+

@@ -1,0 +1,609 @@
+.maindiv {
+  position: relative;
+}
+
+.navbar {
+  padding: 0 20px;
+  height: 85px;
+  z-index: 99999;
+  background: #f5f5f5;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.navbar {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.navbar_active {
+  background: #fff;
+  height: 70px;
+  box-shadow: 0 4px 6px 0 rgb(12 0 46 / 8%);
+  position: fixed;
+}
+
+.navbar .megaDarkLogo {
+  display: none;
+}
+.navbar_active .megaDarkLogo {
+  display: inline-block;
+}
+.navbar_active .megaWhiteLogo {
+  display: none;
+}
+.navBrand {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+.dskLogo {
+  float: left;
+  line-height: 65px;
+}
+.navbar_active .dskLogo {
+  line-height: 70px;
+}
+.dskLogo .navBrand .img {
+  max-height: 80px;
+}
+
+@media only screen and (max-width: 520px) {
+  .navbar {
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar_active .img {
+    max-height: 55px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .img {
+    position: relative;
+    top: 1px;
+  }
+}
+
+
+.menuHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.customNav {
+  float: right;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.customNav .navList li {
+  display: inline-flex;
+}
+
+.customNav .navList li a.menuLinks {
+  color: #018691;
+}
+
+.customNav .navList li .menuLinks {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 15px;
+  line-height: 85px;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+a {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+/* ------------------- contact dropdown ------------------ */
+
+.customNav .navList li.rpDropdown {
+  position: relative;
+}
+a:hover {
+  text-decoration: none;
+}
+div.customNav > ul > li.sbmenu > a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: #4f4daf;
+  left: -100%;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+div.customNav > ul > li:hover .nxDropdown {
+  opacity: 1;
+  height: auto;
+  overflow: inherit;
+}
+div.customNav > ul > li.sbmenu:hover > a:after {
+  left: 0;
+  opacity: 1;
+}
+
+.customNav .menuDropdown {
+  width: 175px;
+  margin: 0 auto;
+}
+.nxDropdown {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 80px;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.subMenuSection {
+  border-top: 2px solid #f3f3f3;
+  width: 100%;
+  padding: 6px 0;
+  background: linear-gradient(
+    156.49deg,
+    rgba(255, 255, 255, 0.85) 9.36%,
+    rgba(228, 228, 228, 0.85) 82.45%
+  );
+  box-shadow: 7px 7px 13px rgb(0 0 0 / 15%);
+  backdrop-filter: blur(8px);
+  margin-top: 4px;
+}
+
+.subMenuCenterBlock {
+  display: flex;
+}
+.customNav .smfull {
+  width: 100%;
+}
+.subMenuColumn ul {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.subMenuColumn {
+  float: left;
+  padding: 0 20px;
+}
+
+.sbmenu {
+  margin-right: 35px;
+}
+
+.customNav .navList li {
+  display: inline-flex;
+}
+
+.subMenuColumn ul li {
+  width: 100%;
+  height: auto;
+  margin-right: 0;
+  float: left;
+  padding: 0;
+  margin-bottom: 9px;
+}
+.subMenuColumn ul li a {
+  width: 100%;
+  font-size: 15px;
+  color: #05688e;
+  position: relative;
+  line-height: 25px;
+  font-weight: 600;
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.li {
+  padding-left: 20px;
+}
+
+/* ------------------ button -------------------- */
+
+.bgBtn3 {
+  font-size: 17px;
+  background: #05668d;
+  background: -webkit-linear-gradient(left, #05668d 0, #028090 100%);
+}
+
+.btnBr {
+  line-height: 48px;
+  color: #fff !important;
+  border-radius: 100px;
+  padding: 0 20px;
+}
+
+.lnk {
+  position: relative;
+  overflow: hidden;
+  right: 5px;
+}
+
+.lnk:hover span.circle {
+  top: -10%;
+  right: -80px;
+}
+
+.circle {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.faIcon {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+span.circle {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  position: absolute;
+  top: -10%;
+  right: -130px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* ------------------- Mobile menu  -------------------- */
+
+.mobileMenu2 {
+  display: none;
+}
+
+.mobNav2 {
+  display: flex;
+}
+
+.mobNav2 li {
+  position: relative;
+}
+
+.bgBtn {
+  background: -webkit-linear-gradient(left, #05668d 0, #028090 100%);
+  background: linear-gradient(to right, #05668d 0, #028090 100%);
+  -webkit-box-shadow: 0 10px 15px 0 rgb(175 0 87 / 20%);
+  box-shadow: 0 10px 15px 0 rgb(175 0 87 / 20%);
+}
+
+.btnRound {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  padding: 0;
+  margin-right: 8px;
+  position: relative;
+  display: inline-block;
+  color: #fff !important;
+  border-radius: 100px;
+}
+
+.btnRound.trngl:after {
+  content: "";
+  position: absolute;
+  right: -4px;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #e8e8e8;
+  clear: both;
+  transform: translateY(-50%);
+}
+
+.mobNav2 li {
+  position: relative;
+}
+
+/* .mobileMenu2 .navm {
+  margin: 0 0 0 10px;
+} */
+
+.hcNavTrigger.hcNav1 {
+  display: block;
+}
+
+.hcNavTrigger {
+  cursor: pointer;
+  top: 20px;
+  user-select: none;
+  z-index: 9980;
+  width: 30px;
+  min-height: 48px;
+}
+
+.mobNav2 .hamburger {
+  position: absolute;
+  top: 5px;
+  font-size: 35px;
+  color: #018691;
+}
+
+/* --- middle --- */
+
+.navBg .hcNavTrigger .span {
+  background: #018691;
+}
+
+.hcNavTrigger .span {
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 4px;
+  transition: all 0.2s ease;
+}
+
+.hcNavTrigger .span {
+  width: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: 50% 50%;
+}
+
+/* ----- top ----- */
+
+.navBg .hcNavTrigger .span::before {
+  background: #018691;
+}
+.hcNavTrigger .span::before {
+  top: -10px;
+}
+.hcNavTrigger .span::before {
+  content: "";
+  width: 100%;
+}
+
+.hcNavTrigger .span::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 4px;
+  transition: all 0.2s ease;
+}
+
+/* ----- bottom ----- */
+
+.hcNavTrigger .span::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 4px;
+  transition: all 0.2s ease;
+}
+
+.hcNavTrigger span::after {
+  background: #018691;
+}
+
+.hcNavTrigger span::after {
+  bottom: -10px;
+}
+
+.hcNavTrigger span::after {
+  content: "";
+  width: 100%;
+}
+
+.mobileMenu2 {
+  display: none;
+}
+/* ----------------------> mobile sidebar menu  <-------------------------- */
+
+.navContainer {
+  max-height: 100vh;
+  background: #101010;
+  display: block;
+  transform: translate3d(0, 0, 0);
+  box-shadow: 1px 0 2px rgb(0 0 0 / 20%);
+}
+.navContainer li {
+  transition: background 0.3s ease;
+  display: block;
+  text-align: left;
+  position: relative;
+}
+
+.navContainer .navWrapper > .navContent {
+  overflow: scroll;
+  overflow-x: visible;
+  overflow-y: auto;
+  box-sizing: border-box;
+  max-height: 100vh;
+}
+.navWrapper > .navContent {
+  padding-bottom: 41px;
+}
+
+.navContainer .ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navContainer .navItemWrapper {
+  position: relative;
+}
+
+.closeBtn a {
+  color: #101010 !important;
+}
+
+.closeBtn a:hover {
+  background-color: #101010;
+}
+.firstNav {
+  position: relative;
+  bottom: 15px;
+}
+.navContainer .navItem {
+  padding: 10px 0;
+  font-size: 15px;
+  color: #fff;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0);
+  border-bottom: 0 solid #2c5d8f;
+}
+.navContainer li.navParent .navNext {
+  width: 45px;
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: 0;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.navNext .arrow {
+  font-size: 12px;
+}
+.navContainer li.navParent .navItem:last-child {
+  padding-right: 35px;
+}
+
+.navContainer .navNext span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.navContainer li.navParent .navNext span::before {
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+.navContainer .navNext span::before {
+  /* content: ""; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  transform-origin: center;
+}
+
+.navContainer li:not(.custom-content) a {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.navContent .indent {
+  text-indent: 10px;
+}
+
+.navContainer .indent .navItem {
+  font-size: 14px;
+}
+
+/* ----------------- bottom nav ------------------ */
+
+ul.bottomNav {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  width: 90%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  border-top: 0 solid #101010;
+  background: #101010;
+}
+
+ul.bottomNav li a {
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+  border-bottom: none;
+}
+
+ul.bottomNav li.prb svg {
+  width: 18px;
+  height: 18px;
+}
+
+ul.bottomNav li svg {
+  fill: #fff;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ul.bottomNav li {
+  flex: auto;
+}
+
+/* ---------- media query ------------ */
+
+
+@media only screen and (max-width: 520px) {
+  .mPad {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .customNav .navList {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .mobileMenu2 {
+    display: block;
+  }
+  .navContainer {
+    display: block;
+  }
+}
+
+
+/* //////////////////////////// Scroll bar ///////////////////////////// */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8e8e8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #05668d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: -webkit-linear-gradient(45deg, #ffbd84, #05668d);
+  background-image: -o-linear-gradient(45deg, #ffbd84, #05668d);
+  background-image: linear-gradient(45deg, #ffbd84, #05668d);
+}
+
+::-moz-selection {
+  background: rgba(166, 175, 189, 0.3);
+}
+
+::selection {
+  background: rgba(166, 175, 189, 0.3);
+}
