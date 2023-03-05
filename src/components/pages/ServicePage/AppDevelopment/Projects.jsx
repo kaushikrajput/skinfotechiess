@@ -19,7 +19,6 @@ const Projects = ({ projectsData }) => {
                     <div className='row'>
                         {projectsData.map((curEle, index) => {
                             return (
-                                <>
                                     <div className={`col-lg-4 col-sm-6 ${style.mt40}`} key={index}>
                                         <div className={`${style.isotopeItem} ${style.hScl}`}>
                                             <div className={`${style.itemImg} ${style.hSclBase}`}>
@@ -34,7 +33,6 @@ const Projects = ({ projectsData }) => {
                                             </div>
                                         </div>
                                     </div>
-                                </>
                             )
                         })}
                     </div>

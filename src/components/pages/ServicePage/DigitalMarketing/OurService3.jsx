@@ -18,7 +18,6 @@ const OurService3 = ({ ourService3Data }) => {
                     <div className={`row ${style.upset}`}>
                         {ourService3Data.map((curEle, index) => {
                             return (
-                                <>
                                     <div className={`col-lg-6 col-sm-6 ${style.mt30}`} key={index}>
                                         <div className={` ${style.cardBlock} ${style.wideBlock}`}>
                                             <div className={style.imgBlock}>
@@ -30,7 +29,6 @@ const OurService3 = ({ ourService3Data }) => {
                                             </div>
                                         </div>
                                     </div>
-                                </>
                             )
                         })}
 

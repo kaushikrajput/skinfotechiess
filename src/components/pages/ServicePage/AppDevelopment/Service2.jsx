@@ -17,18 +17,17 @@ const Service2 = ({ service2Data }) => {
                     <div className={`row ${style.linkHover}`}>
                         {service2Data.map((curEle, index) => {
                             return (
-                                <>
-                                    <div className={`col-lg-3 col-sm-3 ${style.mt30}`}key={index}>
-                                        <div className={style.cardBlock}>
-                                            <div className={style.imgBlock}>
-                                                <img src={curEle.img} alt="" className={`img-fluid`}/>
-                                            </div>
-                                            <div className={style.text}>
-                                                <h4 className={style.h4}>{curEle.text}</h4>
-                                            </div>
+
+                                <div className={`col-lg-3 col-sm-3 ${style.mt30}`} key={index}>
+                                    <div className={style.cardBlock}>
+                                        <div className={style.imgBlock}>
+                                            <img src={curEle.img} alt="" className={`img-fluid`} />
+                                        </div>
+                                        <div className={style.text}>
+                                            <h4 className={style.h4}>{curEle.text}</h4>
                                         </div>
                                     </div>
-                                </>
+                                </div>
                             )
                         })}
                     </div>
@@ -41,8 +40,8 @@ const Service2 = ({ service2Data }) => {
                             <span className={style.bold}> Dedicated Team</span>
                         </p>
                         <Link to="/contact" className={`${style.btnMain} ${style.bgBtn} ${style.lnk}`}>Hire Now
-                        <i className={`fas fa-chevron-right ${style.faIcon}`}></i>
-                        <span className={style.circle}></span>
+                            <i className={`fas fa-chevron-right ${style.faIcon}`}></i>
+                            <span className={style.circle}></span>
                         </Link>
                     </div>
                 </div>

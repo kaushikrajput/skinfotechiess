@@ -2,10 +2,9 @@ import React from 'react'
 import style from './Badges.module.css'
 import { Link } from 'react-router-dom'
 
-const Badges = ({badgesData}) => {
+const Badges = ({ badgesData }) => {
     return (
         <>
-
             <section className={`${style.badgesSection}`}>
                 <div className='container'>
                     <div className='row justify-content-center'>
@@ -18,17 +17,14 @@ const Badges = ({badgesData}) => {
                     <div className='row'>
                         {badgesData.map((curEle, index) => {
                             return (
-                                <>
-                                    <div className='col-lg-3 col-md-6 col-6' key={index}>
-                                        <div className={style.badgesContent}>
-                                            <img src={curEle.img} alt="" className={`img-fluid`} />
-                                        </div>
+                                <div className='col-lg-3 col-md-6 col-6' key={index}>
+                                    <div className={style.badgesContent}>
+                                        <img src={curEle.img} alt="" className={`img-fluid`} />
                                     </div>
-                                </>
+                                </div>
                             )
                         })}
                     </div>
-
 
                     {/* -------- cta section --------- */}
 

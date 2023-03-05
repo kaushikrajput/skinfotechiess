@@ -77,20 +77,18 @@ const NavPortfolio = () => {
                     <div className='row'>
                         {portfolioData.map((curEle, index) => {
                             return (
-                                <>
-                                    <div className={`col-lg-4 col-sm-6 ${style.mt40}`} key={index}>
-                                        <div className={`${style.isotopItem} ${style.hScl}`}>
-                                            <div className={`${style.itemImage} ${style.hSclBase} `}>
-                                                <Link to="">
-                                                    <img src={curEle.img} alt="" className={`img-fluid ${style.img}`} />
-                                                </Link>
-                                            </div>
-                                            <div className={`${style.itemInfo} ${style.shdo}`}>
-                                                <h4 className={style.h4}>{curEle.itemInfo} </h4>
-                                            </div>
+                                <div className={`col-lg-4 col-sm-6 ${style.mt40}`} key={index}>
+                                    <div className={`${style.isotopItem} ${style.hScl}`}>
+                                        <div className={`${style.itemImage} ${style.hSclBase} `}>
+                                            <Link to="">
+                                                <img src={curEle.img} alt="" className={`img-fluid ${style.img}`} />
+                                            </Link>
+                                        </div>
+                                        <div className={`${style.itemInfo} ${style.shdo}`}>
+                                            <h4 className={style.h4}>{curEle.itemInfo} </h4>
                                         </div>
                                     </div>
-                                </>
+                                </div>
                             )
                         })}
                     </div>

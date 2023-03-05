@@ -17,7 +17,6 @@ const Projects2 = ({ projects2Data }) => {
                     <div className='row'>
                         {projects2Data.map((curElement, index) => {
                             return (
-                                <>
                                     <div className={`col-lg-4 col-sm-6 ${style.mt40}`} key={index} >
                                         <div className={`${style.isotopItem} ${style.hScl}`}>
                                             <div className={`${style.itemImage} ${style.hSclBase} `}>
@@ -30,7 +29,6 @@ const Projects2 = ({ projects2Data }) => {
                                             </div>
                                         </div>
                                     </div>
-                                </>
                             )
                         })}
                     </div>

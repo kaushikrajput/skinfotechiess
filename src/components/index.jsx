@@ -464,30 +464,28 @@ const Portfolio = ({ portfolioData }) => {
           <div className="row">
             {portfolioData.map((curElement, index) => {
               return (
-                <>
-                  <div
-                    className={`col-lg-4 col-sm-6 ${style5.mt40}`} key={index}
-                    data-aos="fade-up"
-                    data-aos-once="true"
-                  >
-                    <div className={`${style5.isotopItem} ${style5.hScl}`}>
-                      <div
-                        className={`${style5.itemImage} ${style5.hSclBase} `}
-                      >
-                        <Link to="" className={style5.a}>
-                          <img
-                            src={curElement.image}
-                            alt=""
-                            className={`img-fluid ${style5.img}`}
-                          />
-                        </Link>
-                      </div>
-                      <div className={`${style5.itemInfo} ${style5.shdo}`}>
-                        <h4 className={style5.h4}>{curElement.title} </h4>
-                      </div>
+                <div
+                  className={`col-lg-4 col-sm-6 ${style5.mt40}`} key={index}
+                  data-aos="fade-up"
+                  data-aos-once="true"
+                >
+                  <div className={`${style5.isotopItem} ${style5.hScl}`}>
+                    <div
+                      className={`${style5.itemImage} ${style5.hSclBase} `}
+                    >
+                      <Link to="" className={style5.a}>
+                        <img
+                          src={curElement.image}
+                          alt=""
+                          className={`img-fluid ${style5.img}`}
+                        />
+                      </Link>
+                    </div>
+                    <div className={`${style5.itemInfo} ${style5.shdo}`}>
+                      <h4 className={style5.h4}>{curElement.title} </h4>
                     </div>
                   </div>
-                </>
+                </div>
               );
             })}
           </div>
@@ -526,26 +524,24 @@ const Clients = ({ clientsData }) => {
             </div>
           </div>
           <div className={`row ${style6.appg}`}>
-            {clientsData.map((curElement) => {
+            {clientsData.map((curElement, index) => {
               return (
-                <>
-                  <div
-                    className="col-lg-2 col-md-3 col-sm-6 col-6 "
-                    data-aos="fade-up"
-                    data-aos-once="true"
-
-                  >
-                    <div className={style6.clientLogo}>
-                      <div className={`${style6.brandLogo} ${style6.hoshd}`}>
-                        <img
-                          src={curElement.image}
-                          alt="clients"
-                          className={`img-fluid ${style6.img}`}
-                        />
-                      </div>
+                <div
+                  className="col-lg-2 col-md-3 col-sm-6 col-6 "
+                  data-aos="fade-up"
+                  data-aos-once="true"
+                  key={index}
+                >
+                  <div className={style6.clientLogo}>
+                    <div className={`${style6.brandLogo} ${style6.hoshd}`}>
+                      <img
+                        src={curElement.image}
+                        alt="clients"
+                        className={`img-fluid ${style6.img}`}
+                      />
                     </div>
                   </div>
-                </>
+                </div>
               );
             })}
           </div>

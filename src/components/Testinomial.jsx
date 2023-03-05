@@ -23,7 +23,7 @@ const Testinomial = ({ testinomialData }) => {
                             </div>
                         </div>
 
-                        <div className='col-lg-7' nextIcon={false} prevIcon={false} >
+                        <div className='col-lg-7'>
                             <div className={style.pl}>
                                 <div className={`${style.shape1} ${style.shape}`}><img src="imgs/shape/shape-3.svg" alt="shape" /></div>
                                 <Carousel touch="true"  className={style.fixHeight}>
@@ -58,7 +58,7 @@ const Testinomial = ({ testinomialData }) => {
 
             {/* ------------ cta section ------------ */}
 
-            <section section className={style.ctaSection} >
+            <section className={style.ctaSection} >
                 <div className='container'>
                     <div className='row justify-content-center'>
                         <div className='col-lg-9'>

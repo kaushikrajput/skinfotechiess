@@ -19,7 +19,6 @@ const Whychoose2 = ({whyChoose2Data}) => {
                     <div className='row justify-content-center'>
                         {whyChoose2Data.map((curEle, index) => {
                             return (
-                                <>
                                     <div className={`col-lg-4 col-sm-6 ${style.mt30}`} key={index}>
                                         <div className={style.sBlock}>
                                             <div className={style.icon}>
@@ -30,7 +29,6 @@ const Whychoose2 = ({whyChoose2Data}) => {
                                             </div>
                                         </div>
                                     </div>
-                                </>
                             )
                         })}
                     </div>

@@ -19,7 +19,6 @@ const Service6 = ({ service6Data }) => {
           <div className='row justify-content-center'>
             {service6Data.map((curEle, index) => {
               return (
-                <>
                   <div className={`col-lg-4 col-sm-6 ${style.mt30}`} key={index}>
                     <div className={style.sBlock}>
                       <div className={style.icon}>
@@ -30,7 +29,6 @@ const Service6 = ({ service6Data }) => {
                       </div>
                     </div>
                   </div>
-                </>
               )
             })}
           </div>

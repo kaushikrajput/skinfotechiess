@@ -19,7 +19,6 @@ const Reviews3 = ({reviews3Data}) => {
                     <div className='row'>
                         {reviews3Data.map((curEle, index) => {
                             return (
-                                <>
                                     <div className={`col-md-4 ${style.mt30}`} key={index}>
                                         <div className={style.reviewsCard}>
                                             <div className={`row ${style.vCenter}`}>
@@ -69,7 +68,6 @@ const Reviews3 = ({reviews3Data}) => {
                                             </div>
                                         </div>
                                     </div>
-                                </>
                             )
                         })}
                     </div>

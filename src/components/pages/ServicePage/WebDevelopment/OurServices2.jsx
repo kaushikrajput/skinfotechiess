@@ -20,7 +20,6 @@ const OurServices2 = ({ ourService2Data }) => {
                     <div className='row'>
                         {ourService2Data.map((curEle, index) => {
                             return (
-                                <>
                                     <div className={`col-lg-4 col-sm-6 ${style.mt30}`} key={index}>
                                         <div className={style.sBlock}>
                                             <div className={style.cardIcon}>
@@ -30,7 +29,6 @@ const OurServices2 = ({ ourService2Data }) => {
                                             <p className={style.p}>{curEle.cardContent}</p>
                                         </div>
                                     </div>
-                                </>
                             )
                         })}
                     </div>
