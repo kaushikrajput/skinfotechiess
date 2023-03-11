@@ -58,7 +58,7 @@ const Newslatter = () => {
                                             onChange={(e) => { setEmail(e.target.value) }}
                                             required="required"
                                         />
-                                         {error && email.length <= 0 ?
+                                         {error && email?.length <= 0 ?
                                                     <p>Please enter email!</p> : ""}
 
                                         <button type='submit' name='newslatter-submit' onClick={subscribe} className={`${style.lnk} ${style.btnMain} ${style.bgBtn6} `}> {wait ? "Please wait..." : "Subscribe"}

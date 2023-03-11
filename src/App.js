@@ -25,7 +25,6 @@ const App = () => {
     media: { mobile: "768px", tab: "998px" },
   };
   
-
   return (
     <>
       <ThemeProvider theme={theme}>

@@ -4,7 +4,6 @@ import Navbar from '../../Navbar/Navbar'
 import style from './Contact.module.css'
 import Footer from '../../Footer/Footer'
 import Aos from 'aos'
-import axios from 'axios'
 
 const Contact = () => {
 
@@ -20,7 +19,6 @@ const Contact = () => {
     const [mobile, setMobile] = useState("")
     const [email, setEmail] = useState("")
 
-    const [errorMessage, setErrorMessage] = useState('');
 
     const [error, setError] = useState(false);
     const [wait, setWait] = useState(false)
@@ -126,7 +124,7 @@ const Contact = () => {
                                                     <option value="Travel">Travel</option>
                                                     <option value="Other">Other</option>
                                                 </select>
-                                                {error && projectType.length <= 0 ?
+                                                {error && projectType?.length <= 0 ?
                                                     <p>Please select a category!</p> : ""}
                                             </div>
                                             <div className={`col-md-12 ${style.mt20}`}>
@@ -138,19 +136,19 @@ const Contact = () => {
                                                     <option value="Help Others">Help Others</option>
                                                     <option value="Create Something Unique">Create Something Unique</option>
                                                 </select>
-                                                {error && goalType.length <= 0 ?
+                                                {error && goalType?.length <= 0 ?
                                                     <p>Please select a goal!</p> : ""}
                                             </div>
-                                            {comp == 0 && <div className={`col-md-12 ${style.btnBlock}`}>
-                                                <a data-id='1' className={`${style.nextStep} ${style.lnk} ${style.btnMain} ${style.bgBtn}`} onClick={nextBtn}> Continue
+                                            {comp === 0 && <div className={`col-md-12 ${style.btnBlock}`}>
+                                                <Link data-id='1' className={`${style.nextStep} ${style.lnk} ${style.btnMain} ${style.bgBtn}`} onClick={nextBtn}> Continue
                                                     <i className={`fas fa-chevron-right ${style.faIcon}`}></i>
                                                     <span className={style.circle}></span>
-                                                </a>
+                                                </Link>
                                             </div>}
                                         </div>
                                     }
 
-                                    {comp == 1 &&
+                                    {comp === 1 &&
                                         <div className={`row ${style.fieldSets}`} id='step-2'>
                                             <div className='col-md-12'>
                                                 <label>What is your budget?</label>
@@ -161,46 +159,46 @@ const Contact = () => {
                                                     <option value="₹50,000 - ₹1,00,000">₹50,000 - ₹1,00,000</option>
                                                     <option value="Above ₹1 Lac">Above ₹1 Lac</option>
                                                 </select>
-                                                {error && budgetType.length <= 0 ?
+                                                {error && budgetType?.length <= 0 ?
                                                     <p>Please select a budget!</p> : ""}
                                             </div>
                                             <div className={`col-md-12 ${style.mt20}`}>
                                                 <div className='row'>
                                                     {comp >= 1 && <div className={`col-md-6`} >
-                                                        <a data-id='1' className={` ${style.previousStep} ${style.lnk} ${style.btnMain} ${style.bgBtn}`} onClick={() => setComp((next) => next - 1)}>
+                                                        <Link data-id='1' className={` ${style.previousStep} ${style.lnk} ${style.btnMain} ${style.bgBtn}`} onClick={() => setComp((next) => next - 1)}>
                                                             <i className={`fas fa-chevron-left ${style.faIcon}`}></i>Previous
                                                             <span className={style.circle}></span>
-                                                        </a>
+                                                        </Link>
                                                     </div>}
-                                                    {comp == 1 && <div className={`col-md-6`} >
-                                                        <a data-id='1' className={` next-step ${style.lnk} ${style.btnMain} ${style.bgBtn}`} onClick={nextBtn2}>Continue
+                                                    {comp === 1 && <div className={`col-md-6`} >
+                                                        <Link data-id='1' className={` next-step ${style.lnk} ${style.btnMain} ${style.bgBtn}`} onClick={nextBtn2}>Continue
                                                             <i className={`fas fa-chevron-right ${style.faIcon}`}></i>
                                                             <span className={style.circle}></span>
-                                                        </a>
+                                                        </Link>
                                                     </div>}
                                                 </div>
                                             </div>
                                         </div>
                                     }
 
-                                    {comp == 2 &&
+                                    {comp === 2 &&
                                         <div className={`row ${style.fieldSets}`} id='step-3'>
                                             <div className='col-md-6'>
                                                 <label>Full Name</label>
                                                 <input type="text" name='username' required value={name} onChange={(e) => { setName(e.target.value) }} />
-                                                {error && name.length <= 0 ?
+                                                {error && name?.length <= 0 ?
                                                     <p>Please fill out this field.</p> : ""}
                                             </div>
                                             <div className='col-md-6'>
                                                 <label>Mobile</label>
                                                 <input type="number" name='number' required value={mobile} onChange={(e) => { setMobile(e.target.value) }} />
-                                                {error && mobile.length <= 0 ?
+                                                {error && mobile?.length <= 0 ?
                                                     <p>Please fill out this field.</p> : ""}
                                             </div>
                                             <div className={`col-md-12 ${style.mt20}`}>
                                                 <label>Email</label>
                                                 <input type="email" name='email' required value={email} onChange={(e) => { setEmail(e.target.value) }} />
-                                                {error && email.length <= 0 ?
+                                                {error && email?.length <= 0 ?
                                                     <p>Please fill out this field.</p> : ""}
                                             </div>
 
