@@ -121,8 +121,6 @@ span.circle {
   border-radius: 50%;
 }
 
-/* @media query */
-
 @media only screen and (max-width: 1370px) {
   .heroSection {
     padding-top: 100px;

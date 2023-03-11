@@ -14,7 +14,6 @@
   color: #05688d;
 }
 
-/* ------- Items ------- */
 
 .mt40 {
   margin-top: 40px;
@@ -34,11 +33,6 @@
     0 8.2px 8.9px -30px rgb(0 0 0 / 7%), 0 25px 40px -30px rgb(0 0 0 / 20%);
 }
 
-
-/* .hScl:hover {
-  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
-  transform: translate(0, -5px);
-} */
 
 .hScl:hover .hSclBase{
   transform: scale(.9);
@@ -121,7 +115,6 @@
   font-size: 12px;
 }
 
-/* ------ @mediaQuery ------- */
 
 @media only screen and (max-width: 991px) {
   .commonHeading .h2 {

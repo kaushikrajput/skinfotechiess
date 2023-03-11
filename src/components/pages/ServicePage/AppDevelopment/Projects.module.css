@@ -3,8 +3,6 @@
 }
 .projects {
   background: #f3fbff;
-  background: -moz-linear-gradient(top, #f3fbff 0, #fffdf6 100%);
-  background: -webkit-linear-gradient(top, #f3fbff 0, #fffdf6 100%);
   background: linear-gradient(to bottom, #f3fbff 0, #fffdf6 100%);
 }
 .heading {

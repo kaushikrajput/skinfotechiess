@@ -63,7 +63,6 @@
   line-height: 32x;
 }
 
-/* ---------- btn ----------- */
 .ctaBtn.mt70px {
   margin-top: 70px;
 }
@@ -93,10 +92,7 @@
 
 .bgBtn {
   background: #05668d;
-  background: -moz-linear-gradient(left, #05668d 0, #028090 100%);
-  background: -webkit-linear-gradient(left, #05668d 0, #028090 100%);
   background: linear-gradient(to right, #05668d 0, #028090 100%);
-  -webkit-box-shadow: 0 10px 15px 0 rgb(4 108 141 / 20%);
   box-shadow: 0 10px 15px 0 rgb(4 108 141 / 20%);
 }
 .btnMain:hover {
@@ -142,7 +138,6 @@ span.circle {
   transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
 }
 
-/* -----------media query ----------- */
 
 @media (max-width: 767px) {
   .service4{

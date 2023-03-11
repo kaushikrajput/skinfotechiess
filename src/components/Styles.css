@@ -1,4 +1,4 @@
-/* ////////////////////////// testimonial ///////////////////////////// */
+/*------------- carousel style --------------*/
 
 .carousel.slide {
   color: #6a6a6a;
@@ -69,7 +69,7 @@
   opacity: 1;
 }
 
-/* -------------------- closeButton ------------------- */
+/*------------- button style ----------------*/
 
 button.btn-close {
   color: #fff;
@@ -100,7 +100,7 @@ button.btn-close {
   opacity: 0.9;
 }
 
-/* ---------------------- offcanvas ------------------------ */
+/*----------- offcanvas header ------------*/
 
 .offcanvas-header {
   display: block;
@@ -133,8 +133,6 @@ button.btn-close {
   background-color: #000;
 }
 
-/* ---------- after offcanvas ------------ */
-
 .offcanvas.offcanvas-start.show ::after {
   visibility: visible;
   opacity: 1;
@@ -158,7 +156,7 @@ button.btn-close {
   background: rgba(0, 0, 0, 0.5);
 }
 
-/* ///////////////////// navbar ///////////////////////// */
+/*--------------- navabr -------------------*/
 
 .navbar {
   padding: 0 20px;
@@ -233,7 +231,7 @@ button.btn-close {
   }
 }
 
-/* -------------------- hero ------------------- */
+/*--------- hero section ---------------*/
 
 .heroSection {
   background-size: cover;

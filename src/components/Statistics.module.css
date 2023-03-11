@@ -163,14 +163,9 @@
     height: 80px;
   }
 }
-
-/* @media only screen and (max-width: 520px) {
-  .statistics .span {
-    font-size: 30px;
-  }
-} */
 @media only screen and (max-width: 520px) {
-  .small .statistics .span, .statistics .span {
+  .small .statistics .span,
+  .statistics .span {
     font-size: 30px;
   }
 }
@@ -181,23 +176,12 @@
   }
 }
 
-/* @media only screen and (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-} */
-
-@media only screen and (max-width:991px){
-  .small .statisticsImg{
+@media only screen and (max-width: 991px) {
+  .small .statisticsImg {
     width: 80px;
     height: 80px;
   }
 }
-
-
-
-
-
 
 @media only screen and (max-width: 991px) {
   .text1 {

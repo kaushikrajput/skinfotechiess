@@ -64,7 +64,6 @@
   line-height: 28px;
 }
 
-/* --------media query --------- */
 
 @media only screen and (max-width: 991px) {
   .textBlock .h2,
@@ -85,8 +84,6 @@
   }
 }
 
-
-/* ------ media query ------- */
 
 @media only screen and (max-width: 991px) {
   .textBlock2 .h3,

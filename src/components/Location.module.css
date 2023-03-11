@@ -20,7 +20,6 @@ section {
   color: #05688d;
 }
 
-/* ------ card ----- */
 
 .shapeLoc {
   margin-top: 20px;
@@ -50,10 +49,6 @@ section {
   color: #05688d;
   font-weight: 600;
 }
-
-
-
-/* ------ Mediaquery -------- */
 
 @media only screen and (max-width: 991px) {
   .commonHeading {

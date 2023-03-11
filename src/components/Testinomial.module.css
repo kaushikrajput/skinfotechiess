@@ -100,7 +100,6 @@
   color: #00f2a6;
 }
 
-/* ------- cta Section ------ */
 
 section {
   display: block;
@@ -162,7 +161,6 @@ section {
 .fixHeight{
   height: 316px;
 }
-/* ---------- media query -------- */
 
 @media only screen and (max-width: 991px) {
   .mainHeading .h {
@@ -197,6 +195,7 @@ section {
 @media only screen and (max-width: 991px) {
   .fixHeight{
     padding: 40px 30px !important;
+    height: 360px;
   }
   .btnMain {
     width: max-content;
@@ -224,7 +223,7 @@ section {
 @media (max-width: 991px) {
   .pl {
     border-radius: 40px 8px 8px 8px;
-    padding: 40px 30px;
+    /*padding: 40px 30px;*/
     margin-top: 30px;
     padding-left: 0 !important;
   }

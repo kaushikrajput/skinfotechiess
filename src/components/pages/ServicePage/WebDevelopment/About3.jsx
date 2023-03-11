@@ -1,6 +1,5 @@
 import React from 'react'
 import style from './About3.module.css'
-import { Link } from 'react-router-dom'
 
 const About3 = () => {
   return (

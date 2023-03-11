@@ -109,7 +109,6 @@ a {
   transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
 }
 
-/* ------------------- contact dropdown ------------------ */
 
 .customNav .navList li.rpDropdown {
   position: relative;
@@ -214,7 +213,6 @@ div.customNav > ul > li.sbmenu:hover > a:after {
   padding-left: 20px;
 }
 
-/* ------------------ button -------------------- */
 
 .bgBtn3 {
   font-size: 17px;
@@ -261,7 +259,6 @@ span.circle {
   border-radius: 50%;
 }
 
-/* ------------------- Mobile menu  -------------------- */
 
 .mobileMenu2 {
   display: none;
@@ -276,9 +273,7 @@ span.circle {
 }
 
 .bgBtn {
-  background: -webkit-linear-gradient(left, #05668d 0, #028090 100%);
   background: linear-gradient(to right, #05668d 0, #028090 100%);
-  -webkit-box-shadow: 0 10px 15px 0 rgb(175 0 87 / 20%);
   box-shadow: 0 10px 15px 0 rgb(175 0 87 / 20%);
 }
 
@@ -313,9 +308,7 @@ span.circle {
   position: relative;
 }
 
-/* .mobileMenu2 .navm {
-  margin: 0 0 0 10px;
-} */
+
 
 .hcNavTrigger.hcNav1 {
   display: block;
@@ -337,7 +330,6 @@ span.circle {
   color: #018691;
 }
 
-/* --- middle --- */
 
 .navBg .hcNavTrigger .span {
   background: #018691;
@@ -358,7 +350,6 @@ span.circle {
   transform-origin: 50% 50%;
 }
 
-/* ----- top ----- */
 
 .navBg .hcNavTrigger .span::before {
   background: #018691;
@@ -379,7 +370,6 @@ span.circle {
   transition: all 0.2s ease;
 }
 
-/* ----- bottom ----- */
 
 .hcNavTrigger .span::after {
   display: block;
@@ -405,7 +395,6 @@ span.circle {
 .mobileMenu2 {
   display: none;
 }
-/* ----------------------> mobile sidebar menu  <-------------------------- */
 
 .navContainer {
   max-height: 100vh;
@@ -491,7 +480,6 @@ span.circle {
   transform: translate(-50%, -50%) rotate(-135deg);
 }
 .navContainer .navNext span::before {
-  /* content: ""; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -519,7 +507,6 @@ span.circle {
   font-size: 14px;
 }
 
-/* ----------------- bottom nav ------------------ */
 
 ul.bottomNav {
   position: absolute;
@@ -555,7 +542,6 @@ ul.bottomNav li {
   flex: auto;
 }
 
-/* ---------- media query ------------ */
 
 
 @media only screen and (max-width: 520px) {
@@ -580,7 +566,6 @@ ul.bottomNav li {
 }
 
 
-/* //////////////////////////// Scroll bar ///////////////////////////// */
 
 ::-webkit-scrollbar {
   width: 6px;

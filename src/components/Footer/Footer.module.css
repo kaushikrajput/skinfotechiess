@@ -30,7 +30,6 @@ footer .row {
   color: #fff !important;
 }
 
-/* ---------- social media icons --------- */
 
 .footerRow {
   background: #fff;
@@ -64,7 +63,6 @@ footer .row {
   line-height: 28px;
 }
 
-/* -------media query ------ */
 
 @media only screen and (max-width: 991px) {
   .footerBrands {

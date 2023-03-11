@@ -25,7 +25,6 @@ section {
   font-weight: 600;
 }
 
-/* ------- Blocks ------ */
 
 .clientLogo {
   margin-top: 30px;
@@ -57,11 +56,6 @@ section {
   object-fit: contain;
 }
 
-
-
-
-/* ----- media Query ----- */
-
 @media only screen and (max-width : 991px) {
   .commonHeading .h2 {
     text-align: center;
@@ -80,8 +74,6 @@ section {
     }
 }
 
-
-/* ----------- location ------------------- */
 
 section {
   display: block;
@@ -105,7 +97,6 @@ section {
   color: #05688d;
 }
 
-/* ------ card ----- */
 
 .shapeLoc {
   margin-top: 20px;
@@ -136,7 +127,6 @@ section {
   font-weight: 600;
 }
 
-/* -------- cta Section -------- */
 
 .ctaSection {
   padding-top: 40px;
@@ -175,8 +165,6 @@ span.circle {
   height: 200px;
   border-radius: 50%;
 }
-
-/* -----button----- */
 
 .vCenter {
   align-self: center;
@@ -247,7 +235,6 @@ span.circle {
   border: none;
   display: inline-block;
   position: relative;
-  -webkit-box-shadow: 0 10px 15px 0 rgb(2 195 154 / 15%);
    box-shadow: 0 10px 15px 0 rgb(2 195 154 / 15%);
 }
 .btnMain:hover{
@@ -268,7 +255,6 @@ span.circle {
   font-size: 12px;
 }
 
-/* ------ Mediaquery -------- */
 
 @media only screen and (max-width: 991px) {
   .commonHeading {
@@ -288,7 +274,6 @@ span.circle {
   }
 }
 
-/* ------ cta media query ----- */
 
 @media only screen and (max-width: 991px) {
   .emailSubs {
